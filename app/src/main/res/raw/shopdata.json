@@ -1,0 +1,39 @@
+{
+  "shopdata":[
+    {
+      "ProductName": "Camera",
+      "Manufractiurer" : "DSLR-Pro",
+      "Price": 10000,
+      "ImageUrl": "",
+      "UserRating":5
+    },
+    {
+      "ProductName": "Man's-Tees",
+      "Manufractiurer" : "Levis",
+      "Price": 600,
+      "ImageUrl": "",
+      "UserRating":3
+
+    },
+    {
+      "ProductName": "Pizza",
+      "Manufractiurer" : "Macdonald",
+      "Price": 200,
+      "ImageUrl": "",
+      "UserRating":3
+    },
+    {
+      "ProductName": "Jenas",
+      "Manufractiurer" : "Monte-Carlo",
+      "Price": 2000,
+      "ImageUrl": "",
+      "UserRating":4
+    }
+
+  ]
+
+
+
+
+
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "643340839032",
+    "firebase_url": "https://shopping-6eac6.firebaseio.com",
+    "project_id": "shopping-6eac6",
+    "storage_bucket": "shopping-6eac6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643340839032:android:3c7c10730902a081",
+        "android_client_info": {
+          "package_name": "com.dadhich.app.saleshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643340839032-n8m4h93prsugu0dlgcgik97rsnbn7b4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dadhich.app.saleshopping",
+            "certificate_hash": "09de026d7131908c48739f41566b86b8a48013a2"
+          }
+        },
+        {
+          "client_id": "643340839032-mka4sshuaflj6sfpquiolklleoh05cfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrIsSBBeu-IpmqyURgfFx6iGAonL76-xA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643340839032-mka4sshuaflj6sfpquiolklleoh05cfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

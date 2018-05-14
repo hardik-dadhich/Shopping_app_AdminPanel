@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    tools:context="com.dadhich.app.saleshopping.Login_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="48dp"
+
+                android:padding="16dp"
+                android:src="@drawable/logopic" />
+
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:inputType="textEmailSubject"
+                    android:hint="Email ID"
+                    android:ems="10"
+                    android:padding="8dp"
+                    android:layout_marginTop="16dp"
+                    android:textColorHint="@color/cardview_dark_background"
+                    android:maxLines="1"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+
+
+                />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="bottom"
+                    android:layout_below="@id/username"
+                    android:width="350sp"
+                    android:ems="10"
+                    android:maxLines="1"
+
+                    android:id="@+id/passwordId"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:textColor="@color/cardview_dark_background"
+                    android:hint="@string/password" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/buttonId"
+                    android:layout_marginTop="21dp"
+                    android:layout_below="@id/passwordId"
+                    android:text="Submit"
+                    android:textColor="@color/cardview_dark_background"
+
+
+                    />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

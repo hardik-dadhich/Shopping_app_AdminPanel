@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dataColor">#c27070</color>
+    <color name="loginPageColor">#fccf40</color>
+    <color name = "mahi">#ffb3b3</color>
+    <color name="colorTitle">#e12e4c</color>
+</resources>

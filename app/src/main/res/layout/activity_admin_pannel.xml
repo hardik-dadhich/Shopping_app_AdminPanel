@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    tools:context="com.dadhich.app.saleshopping.Admin_pannel">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="78dp"
+                android:text="Admin Panel"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/pnameId"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/cardview_light_background"
+                android:hint="Name of product"
+                android:padding="10dp"
+                android:textColorHint="@color/cardview_dark_background" />
+
+
+            <EditText
+                android:id="@+id/mnameId"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/cardview_light_background"
+                android:hint="Manufracture of product"
+                android:padding="10dp"
+                android:textColorHint="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/priceId"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/cardview_light_background"
+                android:hint="price"
+                android:padding="10dp"
+                android:textColorHint="@color/cardview_dark_background" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/gallaryButton"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/progressBar2"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Select Picture"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/uploadID"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.66"
+                android:text="UPLOAD"
+                android:textColor="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@+id/showUploadId"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="SHOW UPLOAD" />
+
+
+            <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar2"-->
+            <!--style="?android:attr/progressBarStyle"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginEnd="156dp" />-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
