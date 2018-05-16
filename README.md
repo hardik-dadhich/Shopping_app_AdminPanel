@@ -7,3 +7,5 @@ An android appliction with admin priviledge  to adding content/ images/ prices/ 
 <br>
 using firebase real time database with adding and deleting items using single click!
 <hr>
+## get the demo <br>
+(https://www.youtube.com/watch?v=V86jSO-_KQM&lc=z22udhqaptmezxivlacdp433n12mb1dne31p1hpj2rdw03c010c)
